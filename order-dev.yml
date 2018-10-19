@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://192.168.99.100:3308/springCloud?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
